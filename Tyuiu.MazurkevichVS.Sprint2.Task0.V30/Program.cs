@@ -4,7 +4,7 @@ DataService ds = new DataService();
 int x = 95;
 int y = 1735;
 bool[] res = new bool[6];
-res = ds.GetCompareOperations(x, y);
+res = ds.GetCompareOperations(x, y); 
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
