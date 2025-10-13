@@ -7,7 +7,7 @@ namespace Tyuiu.MazurkevichVS.Sprint2.Task0.V30.Lib
         {
             bool[] res = new bool[6];
             res[0] = x + 1640 == y; 
-            res[1] = x + 1640 != y;
+            res[1] = x + 1640 != y; 
             res[2] = x < y;
             res[3] = x > y;
             res[4] = x <= y;
