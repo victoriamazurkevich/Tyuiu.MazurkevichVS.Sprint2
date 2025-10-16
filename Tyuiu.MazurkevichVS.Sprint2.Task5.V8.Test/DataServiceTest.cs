@@ -11,7 +11,7 @@ namespace Tyuiu.MazurkevichVS.Sprint2.Task5.V8.Test
             int n = 6;
             int m = 20;
             string res = ds.FindDateOfPreviousDay(n, m);
-            string expected = "19.6";
+            string expected = "19.06";
             Assert.AreEqual(expected, res);
         }
     }

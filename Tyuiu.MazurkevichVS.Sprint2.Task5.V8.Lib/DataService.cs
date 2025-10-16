@@ -45,7 +45,7 @@ namespace Tyuiu.MazurkevichVS.Sprint2.Task5.V8.Lib
                         break;
                 }
 
-                string res = $"{prevDay}.{prevMonth}";
+                string res = $"{prevDay}.0{prevMonth}";
                 return res;
             }
         }
