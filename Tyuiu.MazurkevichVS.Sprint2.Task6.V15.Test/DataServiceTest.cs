@@ -9,7 +9,7 @@ namespace Tyuiu.MazurkevichVS.Sprint2.Task6.V15.Test
         {
             DataService ds = new DataService();
             int k = 2;
-            string expected = "вторник";
+            string expected = "Вторник";
             string res = ds.FindDayName(k);
             Assert.AreEqual(expected, res);
         }
