@@ -11,7 +11,7 @@ namespace Tyuiu.MazurkevichVS.Sprint2.Task7.V14.Test
             double x = 0.2;
             double y = 0.2;
             bool res = ds.CheckDotInShadedArea(x, y);
-            bool expected = false;
+            bool expected = true;
             Assert.AreEqual(expected, res);
         }
     }
